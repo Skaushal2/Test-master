@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Backend.Demo.Entities
 {
     [Table("Students")]
-    class Student
+    public class Student
     {
         [Key]
         public int StudentId { get; set; }
